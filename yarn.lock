@@ -4355,6 +4355,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
+gsap@^3.9.1:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.9.1.tgz#d4c7443540497afee9ddc0824fd0180224e33360"
+  integrity sha512-JSGVYoC6da4pIjdF/yxFU6Rz8OojOIDkbooveZlfNg0+JIoFoRruyfWAEi6R/gUeNcuOiTqUIb0gi1nCNrHf8w==
+
 gzip-size@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-6.0.0.tgz#065367fd50c239c0671cbcbad5be3e2eeb10e462"
@@ -4466,6 +4471,11 @@ html-webpack-plugin@^5.5.0:
     lodash "^4.17.21"
     pretty-error "^4.0.0"
     tapable "^2.0.0"
+
+html5-device-mockups@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/html5-device-mockups/-/html5-device-mockups-3.2.1.tgz#97e39de69e9fa86760116653d8daf5fe43be77d5"
+  integrity sha512-jxuLuDf9iABIoFlclVGmhjC3sH91JquIOz6ByKsROg/0ztqamac3XYlnA3GZHfQNM6XZRIsNX8OWal+2R/CTEQ==
 
 htmlparser2@^6.1.0:
   version "6.1.0"
@@ -6963,6 +6973,11 @@ react-dev-utils@^12.0.0:
     shell-quote "^1.7.3"
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
+
+react-device-mockups@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/react-device-mockups/-/react-device-mockups-0.1.11.tgz#d1ace09c08034d0146430de2bfe257a83bf2f1e4"
+  integrity sha512-HoHYHFDRS47xpy4Fa2c7Q9R4wCK24fR64l0jSqHUmfQ58TojFYb3zGBTTTOYNUCGcmNCfu25Agar+qHMu2RW7w==
 
 react-dom@^17.0.2:
   version "17.0.2"
