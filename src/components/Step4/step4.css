@@ -1,0 +1,45 @@
+.section4 {
+    width: 100%;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4 .title {
+    align-self: center;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  .screenContainer {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    pointer-events: all;
+  }
+  .screenContainer img {
+    max-width: 100%;
+    pointer-events: all;
+  }
+  
+  .section4 .bizPay {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .section4 .bizPayText {
+   height: 70%;
+   
+  }
+  .section4 .bizPay .detail {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+  }
+  .section4 .bizPay .detail .titleProject {
+   font-size: 50px;
+  }

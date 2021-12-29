@@ -12,12 +12,16 @@
   display: flex;
   flex-direction: column;
 }
+.pin-spacer{
+  overflow: hidden;;
+}
 .section3 .title {
   align-self: center;
   margin: 0;
   color: white;
   font-size: 40px;
   margin-top: 50px;
+  overflow: hidden;
 }
 .screenContainer {
   width: 100%;
@@ -26,7 +30,26 @@
   overflow-y: auto;
   pointer-events: all;
 }
-.screenContainer img{
+.screenContainer img {
   max-width: 100%;
   pointer-events: all;
+}
+
+.section3 .bisflow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section3 .bisflowText {
+ height: 70%;
+ 
+}
+.section3 .bisflow .detail {
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+.section3 .bisflow .detail .titleProject {
+ font-size: 50px;
 }

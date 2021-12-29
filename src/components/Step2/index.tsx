@@ -86,12 +86,12 @@ const Step2: React.FC<IStep2> = (props) => {
       .from(topText.current, {
         scrollTrigger: {
           trigger: topText.current,
-
           start: "-500px 50%",
           end: "+=500px",
           scrub: 1,
         },
         x: -800,
+        opacity: 0,
         duration: 2,
       })
       .from(bottomText.current, {

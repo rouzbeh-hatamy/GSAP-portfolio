@@ -1,6 +1,5 @@
 .App {
   background-color: #edf2ff;
   background-image: url("https://www.transparenttextures.com/patterns/egg-shell.png");
-  height: 400vh;
-  overflow-x: hidden;
+  overflow: hidden;
 }
