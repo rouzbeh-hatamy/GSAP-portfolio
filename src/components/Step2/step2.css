@@ -5,23 +5,37 @@
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
+  min-height: 110vh;
 }
 .section2 h2 {
   text-align: center;
+  color: #01d135 ;
 }
 .section2 .top-text {
-  width: 200%;
-  font-size: 50px;
+  font-size: 30px;
+  width: 400vw;
+  min-width: 4000px;
 }
-.myImages{
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+.myImages {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 .my-image {
   max-width: 300px;
   /* height: 100%; */
+}
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin: 36px 0;
+}
+.skills .skills-image {
+  width: 120px;
+  object-fit: contain;
 }

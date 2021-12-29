@@ -21,148 +21,177 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 1,
         text: {
-          value: ">- Loading ... ",
+          value: "> Loading ... ",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
         text: {
-          value: ">- Loading ... |",
+          value: "> Loading ... |",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
         text: {
-          value: ">- Loading ... ",
+          value: "> Loading ... ",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
         text: {
-          value: ">- Loading ... |",
+          value: "> Loading ... |",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
         text: {
-          value: ">- Loading ... ",
+          value: "> Loading ... ",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
         text: {
-          value: ">- Loading ... |",
+          value: "> Loading ... |",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
         text: {
-          value: ">- Loading ... ",
+          value: "> Loading ... ",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
         text: {
-          value: ">- Loading ... |",
+          value: "> Loading ... |",
         },
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- |",
+        text: "> |",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- ",
+        text: "> ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- |",
+        text: "> |",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- ",
+        text: "> ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 1.5,
-        text: ">- Wake Up, NEO ...",
+        text: "> Wake Up, NEO ...",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- Wake Up, NEO ...|",
+        text: "> Wake Up, NEO ...|",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- Wake Up, NEO ... ",
+        text: "> Wake Up, NEO ... ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- Wake Up, NEO ...|",
+        text: "> Wake Up, NEO ...|",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- Wake Up, NEO ... ",
+        text: "> Wake Up, NEO ... ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- Wake Up, NEO ...|",
+        text: "> Wake Up, NEO ...|",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: ">- Wake Up, NEO ... ",
-        padSpace: true,
+        text: "> Wake Up, NEO ... ",
         ease: "none",
       })
       .to(textRef.current, {
-        duration: 1,
-        text: {
-          value: ">- Scroll down ❗ ",
-        },
+        duration: 1.5,
+        text: "> about me: ",
         ease: "none",
       })
       .to(textRef.current, {
-        duration: 1,
-        text: {
-          value: ">- Scroll down  ",
-        },
+        duration: 20,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
       })
       .to(textRef.current, {
-        duration: 1,
-        text: {
-          value: ">- Scroll down ❗ ",
-        },
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
       })
       .to(textRef.current, {
-        duration: 1,
-        text: {
-          value: ">- Scroll down  ",
-        },
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
       })
       .to(textRef.current, {
-        duration: 1,
-        text: {
-          value: ">- Scroll down ❗ ",
-        },
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 1.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
+        ease: "none",
+      })
+      .to(textRef.current, {
+        duration: 0.5,
+        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
         ease: "none",
       });
   };
@@ -177,10 +206,21 @@ const Step1: React.FC<IStep1> = (props) => {
           end: "+=400px",
           scrub: 1,
         },
-        width: 200,
-        y: 400,
+        scale: 3,
+        yPercent:100 ,
         duration: 2,
       })
+      .to(macRef.current, {
+        scrollTrigger: {
+          trigger: macRef.current,
+          start: "200% 90%",
+          end: "+=200px",
+          scrub: 1,
+        },
+        opacity: 0,
+        duration: 2,
+      })
+
       .to(textRef.current, {
         scrollTrigger: {
           trigger: textRef.current,
@@ -190,6 +230,7 @@ const Step1: React.FC<IStep1> = (props) => {
           scrub: 1,
         },
         fontSize: "12px",
+        opacity: 0,
         duration: 2,
       });
   };
@@ -197,12 +238,13 @@ const Step1: React.FC<IStep1> = (props) => {
     writeText();
     scroll();
   }, []);
-  
+
   return (
     <div className="section1" ref={macRef}>
+      <h2>Rouzbeh Hatamy</h2>
       <MacbookPro width={width}>
         <div className="screenWrapper">
-          <h2 ref={textRef} className="first-text"></h2>
+          <h4 ref={textRef} className="first-text"></h4>
         </div>
       </MacbookPro>
     </div>
