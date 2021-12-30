@@ -35,31 +35,16 @@ const Step2: React.FC<IStep2> = (props) => {
   const skills = [
     atomic,
     bootstrap,
-    css,
     docker,
     express,
-    framer,
     git,
     graph,
     gsapPic,
-    html5,
-    js,
     lottie,
     material,
   ];
-  const skills2 = [
-    mongo,
-    next,
-    node,
-    pwa,
-    react,
-    redux,
-    sass,
-    socket,
-    tailwind,
-    typescript,
-    webrtc,
-  ];
+  const skills2 = [react, redux, sass, socket, tailwind, typescript, webrtc];
+  const skills3 = [html5, css, js, framer, mongo, next, node, pwa];
   const section = useRef(null);
   const topText = useRef(null);
   const picRef1 = useRef(null);
@@ -246,6 +231,11 @@ const Step2: React.FC<IStep2> = (props) => {
         Skills Skills Skills Skills Skills Skills Skills Skills Skills Skills
         Skills Skills Skills Skills Skills Skills Skills Skills
       </h2>
+      <div className="skills">
+        {skills3.map((item, index) => (
+          <img src={item} alt="skill" className="skills-image" key={index} />
+        ))}
+      </div>
     </div>
   );
 };

@@ -3,33 +3,33 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
 import "html5-device-mockups/dist/device-mockups.min.css";
-import { MacbookPro } from "react-device-mockups";
-import bizPage from "../../assets/images/bizPage.png";
-import "./step4.css";
-interface IStep4 {}
-const Step4: React.FC<IStep4> = (props) => {
+import { IPhone7 } from "react-device-mockups";
+import mfPage from "../../assets/images/mfPage.png";
+import "./step5.css";
+interface IStep5 {}
+const Step5: React.FC<IStep5> = (props) => {
   const [width, setwidth] = useState(500);
   gsap.registerPlugin(ScrollTrigger);
   const secRef = useRef(null);
-  const bizPay = useRef(null);
+  const mafiline = useRef(null);
 
   const animateProjects1 = () => {
     gsap
       .timeline()
 
-      .from(bizPay.current, {
+      .from(mafiline.current, {
         scrollTrigger: {
           trigger: secRef.current,
-          //   markers: true,
-          start: `-${window.innerWidth > 1500 ? 400 : 10}px 40%`,
-          end: "+=400px",
+          // markers: true,
+          start: `-${window.innerWidth > 1500 ? 400 : 700}px 40%`,
+          end: "+=600px",
           scrub: 1,
         },
         opacity: 0,
-        xPercent: 100,
+        xPercent: -100,
         duration: 2,
       })
-      .to(bizPay.current, {
+      .to(mafiline.current, {
         scrollTrigger: {
           trigger: secRef.current,
           // markers: true,
@@ -42,38 +42,39 @@ const Step4: React.FC<IStep4> = (props) => {
       });
   };
   useLayoutEffect(() => {
-    setwidth(window.innerWidth / 2);
+    setwidth(window.innerWidth / 5);
   }, []);
 
   return (
-    <div className="section4" ref={secRef}>
-      <div className="bizPay" ref={bizPay}>
-        <div className="bizPayText">
+    <div className="section5" ref={secRef}>
+      <div className="mafiline" ref={mafiline}>
+        <IPhone7 width={width} orientation="portrait" color="black">
+          <div className="screenContainermob">
+            <img src={mfPage} alt="mafiline" onLoad={animateProjects1} />
+          </div>
+        </IPhone7>
+        <div className="mafilineText">
           <div className="detail">
-            <span className="titleProject">bizPay</span>
+            <span className="titleProject">mafiline</span>
             <div className="stack">
               <span className="smallTitle">Technologies: </span>
 
               <span className="description">
-                ReactJs, redux saga, Atomize, parallax,Atomic Design
+                ReactJs, PWA, PWA to Native, Socket.io,material Ui,Atomic Design
               </span>
             </div>
             <div className="info">
               <span className="smallTitle">About: </span>
               <span className="description">
-                A payment assistant application made for Biz company
+                An online Mafia game which is similar to Spy game but popular in
+                middle East.
               </span>
             </div>
           </div>
         </div>
-        <MacbookPro width={width}>
-          <div className="screenContainer">
-            <img src={bizPage} alt="bizPay" onLoad={animateProjects1} />
-          </div>
-        </MacbookPro>
       </div>
     </div>
   );
 };
 
-export default Step4;
+export default Step5;

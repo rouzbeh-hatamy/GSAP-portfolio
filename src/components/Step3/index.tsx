@@ -83,7 +83,8 @@ const Step3: React.FC<IStep3> = (props) => {
     gsap
       .timeline()
       .set(bisflow.current, {
-        yPercent: 80,
+        y: () => (window.innerWidth > 1500 ? 0 : window.innerHeight - 50),
+        yPercent: () => (window.innerWidth > 1500 ? 80 : 0),
       })
       .from(bisflow.current, {
         scrollTrigger: {
@@ -102,7 +103,7 @@ const Step3: React.FC<IStep3> = (props) => {
           trigger: secRef.current,
           // markers: true,
           start: "700px 40%",
-          end: "+=1000px",
+          end: "+=700px",
           scrub: 1,
           pin: true,
         },

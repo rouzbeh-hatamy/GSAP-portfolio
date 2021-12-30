@@ -1,8 +1,12 @@
 body {
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: whitrabt;
+  line-height: 1.5;
 }
 
 code {

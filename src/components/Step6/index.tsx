@@ -3,21 +3,21 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
 import "html5-device-mockups/dist/device-mockups.min.css";
-import { MacbookPro } from "react-device-mockups";
-import bizPage from "../../assets/images/bizPage.png";
-import "./step4.css";
-interface IStep4 {}
-const Step4: React.FC<IStep4> = (props) => {
+import { IPhone7 } from "react-device-mockups";
+import medPage from "../../assets/images/medpage.png";
+import "./step6.css";
+interface IStep6 {}
+const Step6: React.FC<IStep6> = (props) => {
   const [width, setwidth] = useState(500);
   gsap.registerPlugin(ScrollTrigger);
   const secRef = useRef(null);
-  const bizPay = useRef(null);
+  const med = useRef(null);
 
   const animateProjects1 = () => {
     gsap
       .timeline()
 
-      .from(bizPay.current, {
+      .from(med.current, {
         scrollTrigger: {
           trigger: secRef.current,
           //   markers: true,
@@ -29,7 +29,7 @@ const Step4: React.FC<IStep4> = (props) => {
         xPercent: 100,
         duration: 2,
       })
-      .to(bizPay.current, {
+      .to(med.current, {
         scrollTrigger: {
           trigger: secRef.current,
           // markers: true,
@@ -42,38 +42,38 @@ const Step4: React.FC<IStep4> = (props) => {
       });
   };
   useLayoutEffect(() => {
-    setwidth(window.innerWidth / 2);
+    setwidth(window.innerWidth / 5);
   }, []);
 
   return (
-    <div className="section4" ref={secRef}>
-      <div className="bizPay" ref={bizPay}>
-        <div className="bizPayText">
+    <div className="section6" ref={secRef}>
+      <div className="med" ref={med}>
+        <div className="medText">
           <div className="detail">
-            <span className="titleProject">bizPay</span>
+            <span className="titleProject">medX</span>
             <div className="stack">
               <span className="smallTitle">Technologies: </span>
 
               <span className="description">
-                ReactJs, redux saga, Atomize, parallax,Atomic Design
+                ReactJs, lottie, PWA, signature canvas,redux saga
               </span>
             </div>
             <div className="info">
               <span className="smallTitle">About: </span>
               <span className="description">
-                A payment assistant application made for Biz company
+                A medical startup launched in CA,USA
               </span>
             </div>
           </div>
         </div>
-        <MacbookPro width={width}>
-          <div className="screenContainer">
-            <img src={bizPage} alt="bizPay" onLoad={animateProjects1} />
+        <IPhone7 width={width} orientation="portrait" color="black">
+          <div className="screenContainermob">
+            <img src={medPage} alt="med" onLoad={animateProjects1} />
           </div>
-        </MacbookPro>
+        </IPhone7>
       </div>
     </div>
   );
 };
 
-export default Step4;
+export default Step6;
