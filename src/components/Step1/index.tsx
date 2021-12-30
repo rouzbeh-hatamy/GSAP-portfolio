@@ -15,7 +15,7 @@ const Step1: React.FC<IStep1> = (props) => {
     setwidth(window.innerWidth / 2);
   }, []);
 
-  const writeText = () => {
+  const writeText = (w: number) => {
     gsap
       .timeline()
       .to(textRef.current, {
@@ -131,13 +131,13 @@ const Step1: React.FC<IStep1> = (props) => {
       })
       .to(textRef.current, {
         duration: 1.5,
-        text: width * 2 < 1300 ? "> Scroll Down ❗" : "> about me: ",
+        text: w < 1300 ? "> Scroll Down ❗" : "> about me: ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 20,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
@@ -145,7 +145,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
@@ -153,7 +153,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
@@ -161,7 +161,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
@@ -169,7 +169,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
@@ -177,7 +177,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
@@ -185,7 +185,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
@@ -193,7 +193,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
@@ -201,7 +201,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 1.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
         ease: "none",
@@ -209,7 +209,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
         ease: "none",
@@ -217,7 +217,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
         ease: "none",
@@ -225,7 +225,7 @@ const Step1: React.FC<IStep1> = (props) => {
       .to(textRef.current, {
         duration: 0.5,
         text:
-          width * 2 < 1300
+          w < 1300
             ? "> Scroll Down ❗"
             : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
         ease: "none",
@@ -270,8 +270,12 @@ const Step1: React.FC<IStep1> = (props) => {
         duration: 2,
       });
   };
+
   useEffect(() => {
-    writeText();
+    setTimeout(() => {
+      writeText(window.innerWidth);
+    }, 1000);
+
     scroll();
   }, []);
 

@@ -50,7 +50,7 @@ const Step6: React.FC<IStep6> = (props) => {
       <div className="med" ref={med}>
         <div className="medText">
           <div className="detail">
-            <span className="titleProject">medX</span>
+            <span className="titleProject">MedX</span>
             <div className="stack">
               <span className="smallTitle">Technologies: </span>
 

@@ -59,7 +59,7 @@ const Step5: React.FC<IStep5> = (props) => {
         </IPhone7>
         <div className="mafilineText">
           <div className="detail">
-            <span className="titleProject">mafiline</span>
+            <span className="titleProject">Mafiline</span>
             <div className="stack">
               <span className="smallTitle">Technologies: </span>
 
