@@ -46,3 +46,16 @@
 .section5 .mafiline .detail .titleProject {
   font-size: 50px;
 }
+
+@media screen and (max-width: 1000px) {
+  .section5 .mafiline {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section5 .mafilineText {
+    padding: 10px;
+  }
+  .section5 .mafiline .detail .stack {
+    margin: 15px 0;
+  }
+}

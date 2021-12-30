@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
 import "html5-device-mockups/dist/device-mockups.min.css";
-import { MacbookPro } from "react-device-mockups";
+import { MacbookPro, IPhone7 } from "react-device-mockups";
 import "./section1.css";
 interface IStep1 {}
 const Step1: React.FC<IStep1> = (props) => {
@@ -131,67 +131,103 @@ const Step1: React.FC<IStep1> = (props) => {
       })
       .to(textRef.current, {
         duration: 1.5,
-        text: "> about me: ",
+        text: width * 2 < 1300 ? "> Scroll Down ❗" : "> about me: ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 20,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. |",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 1.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ ",
         ease: "none",
       })
       .to(textRef.current, {
         duration: 0.5,
-        text: "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
+        text:
+          width * 2 < 1300
+            ? "> Scroll Down ❗"
+            : "> about me: Innovative solution seeker, Excited to work in a group as a web developer. I am ambitious, creative and highly eager to learn. Proficient in React js, jQuery, JavaScript and Passionate about libraries and frameworks specially React native. <br/> <br/> > Scroll down ❗ |",
         ease: "none",
       });
   };
@@ -207,7 +243,7 @@ const Step1: React.FC<IStep1> = (props) => {
           scrub: 1,
         },
         scale: 3,
-        yPercent:100 ,
+        yPercent: 100,
         duration: 2,
       })
       .to(macRef.current, {
@@ -242,11 +278,19 @@ const Step1: React.FC<IStep1> = (props) => {
   return (
     <div className="section1" ref={macRef}>
       <h2>Rouzbeh Hatamy</h2>
-      <MacbookPro width={width}>
-        <div className="screenWrapper">
-          <h4 ref={textRef} className="first-text"></h4>
-        </div>
-      </MacbookPro>
+      {width * 2 > 1300 ? (
+        <MacbookPro width={width}>
+          <div className="screenWrapper">
+            <h4 ref={textRef} className="first-text"></h4>
+          </div>
+        </MacbookPro>
+      ) : (
+        <IPhone7 width={width}>
+          <div className="screenWrapper">
+            <h4 ref={textRef} className="first-text"></h4>
+          </div>
+        </IPhone7>
+      )}
     </div>
   );
 };

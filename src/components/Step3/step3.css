@@ -12,8 +12,8 @@
   display: flex;
   flex-direction: column;
 }
-.pin-spacer{
-  overflow: hidden;;
+.pin-spacer {
+  overflow: hidden;
 }
 .section3 .title {
   align-self: center;
@@ -41,15 +41,27 @@
   justify-content: space-around;
 }
 .section3 .bisflowText {
- height: 70%;
- 
+  height: 70%;
 }
 .section3 .bisflow .detail {
- height: 100%;
- display: flex;
- flex-direction: column;
- justify-content: space-around;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .section3 .bisflow .detail .titleProject {
- font-size: 50px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section3 .bisflow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section3 .bisflowText {
+    padding: 10px;
+  }
+  .section3 .bisflow .detail .stack {
+    margin: 15px 0;
+  }
 }

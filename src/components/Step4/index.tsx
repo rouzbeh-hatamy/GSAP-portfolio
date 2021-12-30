@@ -42,7 +42,7 @@ const Step4: React.FC<IStep4> = (props) => {
       });
   };
   useLayoutEffect(() => {
-    setwidth(window.innerWidth / 2);
+    setwidth(window.innerWidth);
   }, []);
 
   return (
@@ -50,7 +50,7 @@ const Step4: React.FC<IStep4> = (props) => {
       <div className="bizPay" ref={bizPay}>
         <div className="bizPayText">
           <div className="detail">
-            <span className="titleProject">bizPay</span>
+            <span className="titleProject">BizPay</span>
             <div className="stack">
               <span className="smallTitle">Technologies: </span>
 
@@ -66,7 +66,7 @@ const Step4: React.FC<IStep4> = (props) => {
             </div>
           </div>
         </div>
-        <MacbookPro width={width}>
+        <MacbookPro width={width > 1000 ? width / 2 : width - 35}>
           <div className="screenContainer">
             <img src={bizPage} alt="bizPay" onLoad={animateProjects1} />
           </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import cv from "./cv.pdf";
 import "./step7.css";
 interface IStep7 {}
 const Step7: React.FC<IStep7> = (props) => {

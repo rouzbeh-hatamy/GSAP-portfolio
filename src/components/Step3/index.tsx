@@ -111,7 +111,7 @@ const Step3: React.FC<IStep3> = (props) => {
       });
   };
   useLayoutEffect(() => {
-    setwidth(window.innerWidth / 2);
+    setwidth(window.innerWidth);
   }, []);
   useEffect(() => {
     animatebg();
@@ -123,7 +123,7 @@ const Step3: React.FC<IStep3> = (props) => {
         Project Samples
       </h5>
       <div className="bisflow" ref={bisflow}>
-        <MacbookPro width={width}>
+        <MacbookPro width={width > 1000 ? width / 2 : width - 35}>
           <div className="screenContainer">
             <img src={bis} alt="bisflow" onLoad={animateProjects1} />
           </div>

@@ -33,7 +33,7 @@ const Step6: React.FC<IStep6> = (props) => {
         scrollTrigger: {
           trigger: secRef.current,
           // markers: true,
-          start: "200px 40%",
+          start: "250px 40%",
           end: "+=1000px",
           scrub: 1,
           pin: true,
@@ -42,7 +42,7 @@ const Step6: React.FC<IStep6> = (props) => {
       });
   };
   useLayoutEffect(() => {
-    setwidth(window.innerWidth / 5);
+    setwidth(window.innerWidth);
   }, []);
 
   return (
@@ -66,7 +66,11 @@ const Step6: React.FC<IStep6> = (props) => {
             </div>
           </div>
         </div>
-        <IPhone7 width={width} orientation="portrait" color="black">
+        <IPhone7
+          width={width > 1000 ? width / 5 : width / 2}
+          orientation="portrait"
+          color="black"
+        >
           <div className="screenContainermob">
             <img src={medPage} alt="med" onLoad={animateProjects1} />
           </div>
